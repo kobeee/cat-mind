@@ -175,17 +175,6 @@
                 ]
               },
               "cornerRadius": 28,
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#00000040",
-                "offset": {
-                  "x": 0,
-                  "y": 16
-                },
-                "blur": 48,
-                "spread": -12
-              },
               "layout": "vertical",
               "gap": 18,
               "padding": 24,
@@ -900,7 +889,11 @@
           "name": "Tab栏",
           "width": "fill_container",
           "height": 84,
-          "fill": "rgba(40, 40, 45, 0.4)",
+          "fill": "rgba(255, 255, 255, 0.45)",
+          "effect": {
+            "type": "background_blur",
+            "radius": 32
+          },
           "layout": "vertical",
           "padding": [
             12,
@@ -915,12 +908,12 @@
               "name": "Tab容器",
               "width": "fill_container",
               "height": 56,
-              "fill": "rgba(255, 255, 255, 0.75)",
+              "fill": "rgba(255, 255, 255, 0.6)",
               "cornerRadius": 30,
               "stroke": {
                 "align": "inside",
-                "thickness": 2.5,
-                "fill": "rgba(255, 255, 255, 0.95)"
+                "thickness": 0.5,
+                "fill": "rgba(255, 255, 255, 0.7)"
               },
               "padding": [
                 10,
