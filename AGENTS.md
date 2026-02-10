@@ -345,4 +345,70 @@ cat-mind/
 
 ---
 
-*最后更新: 2026-02-10*
+## 14. ⚠️ Pencil MCP 使用注意事项
+
+### ❌ 常见错误
+
+#### 1. 文件路径错误
+```
+# ❌ 错误 - 使用绝对路径或工作目录外的路径
+pencil_batch_design({ filePath: "/Users/.../cat.pen" })
+
+# ✅ 正确 - 使用相对路径（相对于工作目录）
+pencil_batch_design({ filePath: "cat.pen" })
+```
+
+#### 2. batch_design 操作失败后的状态
+- **所有操作会回滚**，但文件可能已部分修改
+- **不要重复执行**，先检查文件状态
+- **推荐做法**: 使用 `read` 工具查看文件实际状态后再操作
+
+#### 3. JSON语法错误风险
+- 直接编辑 `.pen` 文件时要格外小心
+- 确保括号、引号匹配
+- 修改后使用 JSON 验证器检查：
+  ```bash
+  python3 -c "import json; json.load(open('cat.pen'))"
+  ```
+
+### ✅ 推荐工作流
+
+#### 方式1: 使用 batch_design (适合批量更新)
+```javascript
+pencil_batch_design({
+  filePath: "cat.pen",  // 相对路径！
+  operations: `
+    U("nodeId", { fill: "#FF0000" })
+    U("otherNode", { width: 100 })
+  `
+})
+```
+
+#### 方式2: 使用 Read + Edit (适合精确修改)
+```javascript
+// 1. 先读取要修改的部分
+read({ filePath: "cat.pen", offset: 5500, limit: 50 })
+
+// 2. 使用 edit 精确替换
+edit({
+  filePath: "cat.pen",
+  oldString: '"fill": "#OLD_COLOR"',
+  newString: '"fill": "#NEW_COLOR"'
+})
+
+// 3. 验证 JSON 完整性
+bash({ command: "python3 -c 'import json; json.load(open(\"cat.pen\"))'" })
+```
+
+### 🔧 故障排除
+
+| 问题 | 原因 | 解决 |
+|-----|------|-----|
+| "Failed to find a node" | 节点ID不存在或拼写错误 | 使用 grep 搜索正确的节点ID |
+| "ENOENT: no such file" | 文件路径错误 | 使用相对路径 `./cat.pen` 或 `cat.pen` |
+| "JSON parse error" | 语法错误，如括号不匹配 | 使用 JSON 验证器定位问题 |
+| "Multiple AST nodes detected" | ast_grep 模式匹配到多个节点 | 使用更具体的模式 |
+
+---
+
+*最后更新: 2026-02-11*
