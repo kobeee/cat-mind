@@ -1,4 +1,4 @@
-# iFLOW.md - 喵星说明书项目指南
+# CLAUDE.md - 喵星说明书项目指南
 
 > 微信小程序原型设计项目 | 使用 Pencil MCP 创建 UI 设计
 
@@ -266,75 +266,7 @@ mcp_pencil_replace_all_matching_properties({
 
 ---
 
-## 11. 已安装技能
-
-### 项目本地技能 (`.iflow/skills/`)
-
-以下技能已复制到项目本地，iFlow CLI 会自动读取并应用：
-
-#### 🎨 UI/UX 设计核心
-| 技能名称 | 功能描述 | 来源 |
-|---------|---------|------|
-| **ui-ux-pro-max** | 最全面的设计系统：67种UI风格、96种配色、57种字体、100+行业规则 | nextlevelbuilder |
-| **pencil-ui-design** | Pencil MCP 工业级 UI 设计规范和工作流 | 本地 |
-| **baseline-ui** | UI基线规范，确保设计一致性 | ibelick/ui-skills |
-| **web-design-guidelines** | Web设计最佳实践（100+规则） | vercel-labs |
-
-#### 🔧 修复与优化
-| 技能名称 | 功能描述 |
-|---------|---------|
-| **fixing-accessibility** | 可访问性检查与修复（ARIA、键盘导航、语义化） |
-| **fixing-motion-performance** | 动效性能优化（prefers-reduced-motion、合成器友好） |
-| **fixing-metadata** | 元数据修复（标题、meta、社交卡片） |
-
-#### ⚛️ 框架与开发
-| 技能名称 | 功能描述 |
-|---------|---------|
-| **design-system-patterns** | 设计系统构建模式和架构 |
-| **vercel-react-best-practices** | React/Next.js性能优化（40+规则） |
-| **vercel-react-native-skills** | React Native 开发规范 |
-| **remotion-best-practices** | 视频/动画制作最佳实践 |
-
-#### 🔍 工具类
-| 技能名称 | 功能描述 |
-|---------|---------|
-| **find-skills** | 技能查找工具 |
-
-### 技能使用指南
-
-iFlow CLI 会根据任务内容**自动加载**相关技能。例如：
-
-- **设计UI界面** → 自动使用 `ui-ux-pro-max` + `baseline-ui` + `fixing-accessibility`
-- **优化性能** → 自动使用 `vercel-react-best-practices` 或 `fixing-motion-performance`
-- **Pencil设计** → 自动使用 `pencil-ui-design`
-
-### 手动安装新技能
-
-如需添加更多技能，使用以下命令：
-
-```bash
-# 查看已安装技能
-npx skills list -g
-
-# 查找新技能
-npx skills find <keyword>
-
-# 安装技能到全局
-npx skills add <owner/repo> -g -y
-
-# 示例：安装 UI 优化套件
-npx skills add ibelick/ui-skills -g -y
-```
-
-安装后会自动链接到 `~/.agents/skills/`，可复制到项目：
-
-```bash
-cp -r ~/.agents/skills/<skill-name> .iflow/skills/
-```
-
----
-
-## 12. 设计规范文档
+## 11. 设计规范文档
 
 **UI设计文档** (位于 `docs/design/ui/`):
 - `prd-gap-analysis.md` - PRD差距分析报告（P0/P1/P2缺失项）
@@ -351,7 +283,7 @@ cp -r ~/.agents/skills/<skill-name> .iflow/skills/
 
 ---
 
-## 13. 📝 变更记录规范 (MUST READ)
+## 12. 📝 变更记录规范 (MUST READ)
 
 ### 🚨 **强制要求：所有变更必须记录**
 
@@ -439,7 +371,7 @@ cat-mind/
 
 ---
 
-## 14. ⚠️ Pencil MCP 使用注意事项
+## 13. ⚠️ Pencil MCP 使用注意事项
 
 ### ❌ 常见错误
 
