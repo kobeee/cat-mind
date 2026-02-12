@@ -5566,7 +5566,7 @@
                       "type": "frame",
                       "id": "Yzro1",
                       "name": "数据项1",
-                      "width": "fill_container",
+                      "width": 140,
                       "fill": "#2C2C2E",
                       "cornerRadius": 12,
                       "layout": "vertical",
@@ -5627,7 +5627,10 @@
                           "id": "rV2Uc",
                           "name": "stat2Value",
                           "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
                           "content": "MODEL: MEOW-SN-2024",
+                          "lineHeight": 1.2,
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -7417,6 +7420,7 @@
                   "id": "f9PbA",
                   "name": "设置项1",
                   "width": "fill_container",
+                  "height": 56,
                   "fill": "$bg-pure",
                   "cornerRadius": 16,
                   "effect": {
@@ -7447,8 +7451,9 @@
                       "id": "SrHW1",
                       "name": "设置信息",
                       "width": "fill_container",
+                      "height": 24,
                       "layout": "vertical",
-                      "gap": 2,
+                      "justifyContent": "center",
                       "children": [
                         {
                           "type": "text",
@@ -7459,16 +7464,6 @@
                           "fontFamily": "Inter",
                           "fontSize": 16,
                           "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "ZABjL",
-                          "name": "settingDesc",
-                          "fill": "$gray-primary",
-                          "content": "每日猫历推送提醒",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -7488,6 +7483,7 @@
                   "id": "CXP1o",
                   "name": "设置项2",
                   "width": "fill_container",
+                  "height": 56,
                   "fill": "$bg-pure",
                   "cornerRadius": 16,
                   "effect": {
@@ -7518,8 +7514,9 @@
                       "id": "XshDr",
                       "name": "设置信息",
                       "width": "fill_container",
+                      "height": 24,
                       "layout": "vertical",
-                      "gap": 2,
+                      "justifyContent": "center",
                       "children": [
                         {
                           "type": "text",
@@ -7549,6 +7546,7 @@
                   "id": "kudn0",
                   "name": "设置项3",
                   "width": "fill_container",
+                  "height": 56,
                   "fill": "$bg-pure",
                   "cornerRadius": 16,
                   "effect": {
@@ -7579,8 +7577,9 @@
                       "id": "hHPRw",
                       "name": "设置信息",
                       "width": "fill_container",
+                      "height": 24,
                       "layout": "vertical",
-                      "gap": 2,
+                      "justifyContent": "center",
                       "children": [
                         {
                           "type": "text",
@@ -7591,16 +7590,6 @@
                           "fontFamily": "Inter",
                           "fontSize": 16,
                           "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "S0O4M",
-                          "name": "settingDesc",
-                          "fill": "$gray-primary",
-                          "content": "版本 v1.0.0",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -7620,6 +7609,7 @@
                   "id": "ENkmd",
                   "name": "设置项4",
                   "width": "fill_container",
+                  "height": 56,
                   "fill": "$bg-pure",
                   "cornerRadius": 16,
                   "effect": {
@@ -7650,8 +7640,9 @@
                       "id": "wyLUj",
                       "name": "设置信息",
                       "width": "fill_container",
+                      "height": 24,
                       "layout": "vertical",
-                      "gap": 2,
+                      "justifyContent": "center",
                       "children": [
                         {
                           "type": "text",
@@ -9360,13 +9351,13 @@
           "id": "4fYIh",
           "name": "内容区",
           "width": "fill_container",
-          "height": "fill_container",
+          "height": 660,
           "layout": "vertical",
           "gap": 20,
           "padding": [
             0,
             20,
-            20,
+            24,
             20
           ],
           "children": [
@@ -9375,6 +9366,7 @@
               "id": "G4vca",
               "name": "照片评分卡",
               "width": "fill_container",
+              "height": 335,
               "fill": "$bg-pure",
               "cornerRadius": 24,
               "effect": {
@@ -9388,8 +9380,13 @@
                 "blur": 12
               },
               "layout": "vertical",
-              "gap": 16,
-              "padding": 20,
+              "gap": 10,
+              "padding": [
+                14,
+                14,
+                18,
+                14
+              ],
               "alignItems": "center",
               "children": [
                 {
@@ -9545,8 +9542,11 @@
                 "fill": "rgba(255,255,255,0.1)"
               },
               "layout": "vertical",
-              "gap": 12,
-              "padding": 20,
+              "gap": 6,
+              "padding": [
+                10,
+                14
+              ],
               "children": [
                 {
                   "type": "text",
@@ -9600,8 +9600,11 @@
                 "blur": 12
               },
               "layout": "vertical",
-              "gap": 14,
-              "padding": 20,
+              "gap": 16,
+              "padding": [
+                16,
+                20
+              ],
               "children": [
                 {
                   "type": "text",
@@ -9617,30 +9620,35 @@
                   "type": "frame",
                   "id": "y0NXQ",
                   "name": "标签行1",
-                  "width": "fill_container",
-                  "gap": 8,
+                  "width": 322,
+                  "gap": 16,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
                       "id": "MQVf0",
                       "name": "标签",
+                      "width": 150,
+                      "height": 40,
                       "fill": "#FFF5F0",
-                      "cornerRadius": 12,
+                      "cornerRadius": 20,
                       "gap": 6,
                       "padding": [
-                        8,
-                        14
+                        6,
+                        16
                       ],
+                      "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "PXe8i",
-                          "name": "tag1Icon",
-                          "content": "🐱",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "type": "icon_font",
+                          "id": "x96Az",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "pets",
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "$coral-primary"
                         },
                         {
                           "type": "text",
@@ -9648,6 +9656,7 @@
                           "name": "tag1Text",
                           "fill": "$coral-primary",
                           "content": "橘色花纹",
+                          "lineHeight": 1,
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -9658,23 +9667,26 @@
                       "type": "frame",
                       "id": "ORTZx",
                       "name": "标签",
+                      "width": 150,
+                      "height": 40,
                       "fill": "#FFF8E1",
-                      "cornerRadius": 12,
+                      "cornerRadius": 20,
                       "gap": 6,
                       "padding": [
-                        8,
-                        14
+                        6,
+                        16
                       ],
+                      "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "Mitez",
-                          "name": "tag2Icon",
-                          "content": "⚡",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "type": "icon_font",
+                          "id": "3vqr1",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "bolt",
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "#E67E22"
                         },
                         {
                           "type": "text",
@@ -9682,6 +9694,7 @@
                           "name": "tag2Text",
                           "fill": "#E67E22",
                           "content": "易胖体质",
+                          "lineHeight": 1,
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -9694,30 +9707,35 @@
                   "type": "frame",
                   "id": "k3D8b",
                   "name": "标签行2",
-                  "width": "fill_container",
-                  "gap": 8,
+                  "width": 322,
+                  "gap": 16,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
                       "id": "0PjBW",
                       "name": "标签",
+                      "width": 150,
+                      "height": 40,
                       "fill": "#F0F7FF",
-                      "cornerRadius": 12,
+                      "cornerRadius": 20,
                       "gap": 6,
                       "padding": [
-                        8,
-                        14
+                        6,
+                        16
                       ],
+                      "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "mKe45",
-                          "name": "tag3Icon",
-                          "content": "👑",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "type": "icon_font",
+                          "id": "kvOSD",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "emoji_events",
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "#3B82F6"
                         },
                         {
                           "type": "text",
@@ -9725,6 +9743,7 @@
                           "name": "tag3Text",
                           "fill": "#3B82F6",
                           "content": "鄙视链顶端",
+                          "lineHeight": 1,
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -9735,23 +9754,26 @@
                       "type": "frame",
                       "id": "wvhoF",
                       "name": "标签",
+                      "width": 150,
+                      "height": 40,
                       "fill": "#F0FFF4",
-                      "cornerRadius": 12,
+                      "cornerRadius": 20,
                       "gap": 6,
                       "padding": [
-                        8,
-                        14
+                        6,
+                        16
                       ],
+                      "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "8U8Xn",
-                          "name": "tag4Icon",
-                          "content": "🍽️",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "type": "icon_font",
+                          "id": "vaMIQ",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "restaurant",
+                          "iconFontFamily": "Material Symbols Rounded",
+                          "fill": "#22C55E"
                         },
                         {
                           "type": "text",
@@ -9759,6 +9781,7 @@
                           "name": "tag4Text",
                           "fill": "#22C55E",
                           "content": "干饭机器",
+                          "lineHeight": 1,
                           "fontFamily": "Inter",
                           "fontSize": 13,
                           "fontWeight": "500"
