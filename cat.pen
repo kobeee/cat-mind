@@ -7,9 +7,8 @@
       "x": 0,
       "y": 0,
       "name": "首页",
-      "clip": true,
       "width": 402,
-      "height": 874,
+      "height": 1148,
       "fill": {
         "type": "gradient",
         "gradientType": "linear",
@@ -44,9 +43,9 @@
           "id": "MLI1w",
           "name": "主内容",
           "width": "fill_container",
-          "height": 746,
+          "height": 1020,
           "layout": "vertical",
-          "gap": 24,
+          "gap": 16,
           "padding": [
             0,
             20,
@@ -501,14 +500,14 @@
               "name": "功能网格",
               "width": "fill_container",
               "layout": "vertical",
-              "gap": 12,
+              "gap": 8,
               "children": [
                 {
                   "type": "frame",
                   "id": "row1_new",
                   "name": "功能行1",
                   "width": "fill_container",
-                  "gap": 12,
+                  "gap": 8,
                   "children": [
                     {
                       "type": "frame",
@@ -722,7 +721,7 @@
                   "id": "row2_new",
                   "name": "功能行2",
                   "width": "fill_container",
-                  "gap": 12,
+                  "gap": 8,
                   "children": [
                     {
                       "type": "frame",
@@ -730,12 +729,30 @@
                       "name": "喵语听力",
                       "width": 169,
                       "height": 150,
-                      "fill": "$bg-pure",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 145,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F3EFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#EBE4FF",
+                            "position": 1
+                          }
+                        ]
+                      },
                       "cornerRadius": 24,
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "#00000010",
+                        "color": "#9B7DFF20",
                         "offset": {
                           "x": 0,
                           "y": 6
@@ -751,8 +768,8 @@
                           "type": "frame",
                           "id": "z5ThV",
                           "name": "喵语听力图标容器",
-                          "width": 40,
-                          "height": 40,
+                          "width": 42,
+                          "height": 42,
                           "fill": {
                             "type": "gradient",
                             "gradientType": "linear",
@@ -763,30 +780,34 @@
                             },
                             "colors": [
                               {
-                                "color": "#FF7A50",
+                                "color": "#9B7DFF",
                                 "position": 0
                               },
                               {
-                                "color": "#FF6B6B",
+                                "color": "#7C5CE0",
                                 "position": 1
                               }
                             ]
                           },
-                          "cornerRadius": 16,
+                          "cornerRadius": [
+                            18,
+                            4,
+                            18,
+                            4
+                          ],
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
                           "children": [
                             {
-                              "type": "frame",
-                              "id": "WzfDN",
-                              "name": "右上1/4圆",
-                              "width": 20,
-                              "height": 20,
-                              "fill": "rgba(255,255,255,0.3)",
-                              "cornerRadius": [
-                                0,
-                                20,
-                                0,
-                                0
-                              ]
+                              "type": "icon_font",
+                              "id": "m1uJE",
+                              "name": "hearIcon",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "hearing",
+                              "iconFontFamily": "Material Symbols Rounded",
+                              "fill": "#FFFFFF"
                             }
                           ]
                         },
@@ -819,12 +840,30 @@
                       "name": "爪速挑战",
                       "width": 169,
                       "height": 150,
-                      "fill": "$bg-pure",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 145,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFF8E8",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFEED0",
+                            "position": 1
+                          }
+                        ]
+                      },
                       "cornerRadius": 24,
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
-                        "color": "#00000010",
+                        "color": "#FFB84D20",
                         "offset": {
                           "x": 0,
                           "y": 6
@@ -840,8 +879,8 @@
                           "type": "frame",
                           "id": "lIUPr",
                           "name": "爪速挑战图标容器",
-                          "width": 40,
-                          "height": 40,
+                          "width": 42,
+                          "height": 42,
                           "fill": {
                             "type": "gradient",
                             "gradientType": "linear",
@@ -852,30 +891,34 @@
                             },
                             "colors": [
                               {
-                                "color": "#FF7A50",
+                                "color": "#FFB84D",
                                 "position": 0
                               },
                               {
-                                "color": "#FF6B6B",
+                                "color": "#FF9F1C",
                                 "position": 1
                               }
                             ]
                           },
-                          "cornerRadius": 16,
+                          "cornerRadius": [
+                            4,
+                            18,
+                            4,
+                            18
+                          ],
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
                           "children": [
                             {
-                              "type": "frame",
-                              "id": "rBlV5",
-                              "name": "上半圆",
-                              "width": 40,
-                              "height": 20,
-                              "fill": "rgba(255,255,255,0.25)",
-                              "cornerRadius": [
-                                20,
-                                20,
-                                0,
-                                0
-                              ]
+                              "type": "icon_font",
+                              "id": "8xHBA",
+                              "name": "boltIcon",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "electric_bolt",
+                              "iconFontFamily": "Material Symbols Rounded",
+                              "fill": "#FFFFFF"
                             }
                           ]
                         },
@@ -912,7 +955,7 @@
               "name": "更多玩法区",
               "width": "fill_container",
               "layout": "vertical",
-              "gap": 12,
+              "gap": 8,
               "children": [
                 {
                   "type": "text",
@@ -936,7 +979,7 @@
                       "id": "fJ2mB",
                       "name": "双猫匹配卡片",
                       "width": 120,
-                      "height": 90,
+                      "height": 100,
                       "fill": "$bg-pure",
                       "cornerRadius": 12,
                       "stroke": {
@@ -946,7 +989,7 @@
                       },
                       "layout": "vertical",
                       "gap": 6,
-                      "padding": 12,
+                      "padding": 10,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -974,8 +1017,10 @@
                           "type": "text",
                           "id": "wD9kL",
                           "name": "matchCardDesc",
-                          "fill": "$gray-secondary",
+                          "fill": "#6B7280",
                           "content": "测测缘分",
+                          "lineHeight": 1.2,
+                          "textAlign": "center",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -2865,6 +2910,7 @@
           "name": "底部",
           "width": "fill_container",
           "layout": "vertical",
+          "gap": 16,
           "padding": [
             12,
             20,
@@ -4308,7 +4354,7 @@
       "name": "双猫匹配",
       "clip": true,
       "width": 402,
-      "height": 874,
+      "height": 1020,
       "fill": "$bg-cream",
       "layout": "vertical",
       "children": [
@@ -4395,7 +4441,7 @@
           "id": "1AwTc",
           "name": "内容",
           "width": "fill_container",
-          "height": 702,
+          "height": "fill_container",
           "layout": "vertical",
           "gap": 20,
           "padding": [
@@ -4782,9 +4828,15 @@
                   "id": "djmpw",
                   "name": "雷达图",
                   "width": "fill_container",
-                  "height": 140,
+                  "height": 150,
                   "fill": "#2C2C2E",
                   "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    16
+                  ],
                   "children": [
                     {
                       "type": "text",
@@ -4796,6 +4848,199 @@
                       "fontSize": 12,
                       "fontWeight": "600",
                       "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v0XBc",
+                      "name": "对比图表",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BlLmI",
+                          "name": "row1",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0X1Yk",
+                              "name": "lab1",
+                              "fill": "rgba(255,255,255,0.5)",
+                              "content": "粘人",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "npStp",
+                              "name": "bar1a",
+                              "width": 110,
+                              "height": 5,
+                              "fill": "rgba(255,122,80,0.6)",
+                              "cornerRadius": 2.5
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DxbMg",
+                              "name": "bar1b",
+                              "width": 80,
+                              "height": 5,
+                              "fill": "rgba(255,209,102,0.6)",
+                              "cornerRadius": 2.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g6ThR",
+                          "name": "row2",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SBOkZ",
+                              "name": "lab2",
+                              "fill": "rgba(255,255,255,0.5)",
+                              "content": "活泼",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "FIl5h",
+                              "name": "bar2a",
+                              "width": 65,
+                              "height": 5,
+                              "fill": "rgba(255,122,80,0.6)",
+                              "cornerRadius": 2.5
+                            },
+                            {
+                              "type": "frame",
+                              "id": "sgM5K",
+                              "name": "bar2b",
+                              "width": 105,
+                              "height": 5,
+                              "fill": "rgba(255,209,102,0.6)",
+                              "cornerRadius": 2.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wMZox",
+                          "name": "row3",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nbfKs",
+                              "name": "lab3",
+                              "fill": "rgba(255,255,255,0.5)",
+                              "content": "好奇",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "9YGKD",
+                              "name": "bar3a",
+                              "width": 95,
+                              "height": 5,
+                              "fill": "rgba(255,122,80,0.6)",
+                              "cornerRadius": 2.5
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Pcp4J",
+                              "name": "bar3b",
+                              "width": 95,
+                              "height": 5,
+                              "fill": "rgba(255,209,102,0.6)",
+                              "cornerRadius": 2.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "894d2",
+                          "name": "row4",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nrKsy",
+                              "name": "lab4",
+                              "fill": "rgba(255,255,255,0.5)",
+                              "content": "温顺",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pVeDW",
+                              "name": "bar4a",
+                              "width": 75,
+                              "height": 5,
+                              "fill": "rgba(255,122,80,0.6)",
+                              "cornerRadius": 2.5
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RZahs",
+                              "name": "bar4b",
+                              "width": 120,
+                              "height": 5,
+                              "fill": "rgba(255,209,102,0.6)",
+                              "cornerRadius": 2.5
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JjUIt",
+                      "name": "图例",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GlVak",
+                          "name": "leg1",
+                          "fill": "#FF7A50",
+                          "content": "● 霸总猫",
+                          "fontFamily": "Inter",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oVrYg",
+                          "name": "leg2",
+                          "fill": "#FFD166",
+                          "content": "● 绿茶猫",
+                          "fontFamily": "Inter",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -5008,7 +5253,7 @@
           "width": "fill_container",
           "gap": 12,
           "padding": [
-            16,
+            20,
             20,
             34,
             20
@@ -5169,6 +5414,7 @@
           "id": "aqiXJ",
           "name": "主内容",
           "width": "fill_container",
+          "height": "fill_container",
           "layout": "vertical",
           "gap": 20,
           "padding": [
@@ -6011,6 +6257,7 @@
           "id": "uIOJV",
           "name": "主内容",
           "width": "fill_container",
+          "height": "fill_container",
           "layout": "vertical",
           "gap": 20,
           "padding": [
@@ -6870,7 +7117,7 @@
       "name": "我的",
       "clip": true,
       "width": 402,
-      "height": 874,
+      "height": 930,
       "fill": "$bg-cream",
       "layout": "vertical",
       "children": [
@@ -6912,7 +7159,7 @@
           "id": "PeP5x",
           "name": "主内容",
           "width": "fill_container",
-          "height": 690,
+          "height": "fill_container",
           "layout": "vertical",
           "gap": 20,
           "padding": [
@@ -7682,6 +7929,7 @@
           "id": "nP7Qr",
           "name": "主内容",
           "width": "fill_container",
+          "height": "fill_container",
           "layout": "vertical",
           "gap": 20,
           "padding": [
@@ -9261,7 +9509,8 @@
                   "lineHeight": 1.5,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -9328,7 +9577,8 @@
                   "fill": "rgba(255,255,255,0.5)",
                   "content": "— AI喵相师评语",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -9884,7 +10134,8 @@
               "lineHeight": 1.5,
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 13
+              "fontSize": 13,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -9951,7 +10202,8 @@
                       "fill": "rgba(255,255,255,0.5)",
                       "content": "生成专属喵星说明书",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -10672,7 +10924,8 @@
               "lineHeight": 1.5,
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -10750,7 +11003,8 @@
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 12
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -11029,7 +11283,8 @@
                   "content": "让朋友扫描此二维码加入匹配",
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -11262,7 +11517,8 @@
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 15
+                  "fontSize": 15,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -11330,7 +11586,8 @@
                       "fill": "rgba(255,255,255,0.7)",
                       "content": "红点会在屏幕上随机出现",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -11372,7 +11629,8 @@
                       "fill": "rgba(255,255,255,0.7)",
                       "content": "猫咪触碰屏幕即记录一次",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -11414,7 +11672,8 @@
                       "fill": "rgba(255,255,255,0.7)",
                       "content": "30秒内尽可能多地触碰",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
