@@ -13,16 +13,47 @@
 **项目结构**:
 ```
 cat-mind/
-├── cat.pen                   # Pencil 设计文件（7个页面）
-├── src                       # 项目源码目录
+├── cat.pen                   # Pencil 设计文件（18个页面 + 1个组件）
+├── src/                      # 项目源码目录
 ├── docs/
 │   ├── prd/v1.0.md           # 产品需求文档
-│   ├── design/               # 设计相关文档
+│   ├── design/
+│   │   ├── design-guidelines.md    # 设计指引
+│   │   └── ui/                     # UI设计文档
+│   │       ├── prd-gap-analysis.md     # PRD差距分析
+│   │       ├── user-flows.md           # 用户流程图
+│   │       ├── design-system.md        # 设计系统规范
+│   │       └── interaction-specs.md    # 交互标注文档
 │   └── rules/                # 设计规范文档
-└── AGENTS.md                 # 本文件
+├── CHANGELOG.md              # 变更记录
+├── CLAUDE.md                 # Claude Code 项目指南
+└── IFLOW.md                  # iFlow 项目指南
 ```
 
-**已设计页面**: 首页、AI喵相学、CBTI测试、说明书结果、听力统考、爪速挑战、双猫匹配
+**已设计页面 (18个)**:
+
+| # | 页面名称 | 节点ID | 类型 | 位置x |
+|---|---------|--------|------|-------|
+| 1 | 首页 | 1G9SU | Tab页 | 0 |
+| 2 | AI喵相学 | fJGOd | 子页面 | 502 |
+| 3 | CBTI测试 | YRxjL | 子页面 | 1004 |
+| 4 | 喵星说明书 | Y7JLF | 子页面 | 1506 |
+| 5 | 喵语听力统考 | JLmUU | 子页面 | 2008 |
+| 6 | 爪速大挑战 | rMJKb | 子页面 | 2510 |
+| 7 | 双猫匹配 | WU1ri | 子页面 | 3012 |
+| 8 | 档案 | pQpW8 | Tab页 | 3514 |
+| 9 | 排行-手速榜 | TCSKf | Tab页 | 4016 |
+| 10 | 我的 | 216UK | Tab页 | 4518 |
+| 11 | 颜值榜 | bC5Df | 子页面 | 5020 |
+| 12 | 听觉雷达图结果 | rAdarX | 子页面 | 5522 |
+| 13 | AI喵相诊断单 | fTK0X | 子页面 | 6024 |
+| 14 | 分享海报 | iK4hc | 子页面 | 6526 |
+| 15 | AI扫描中 | BLSPV | 子页面 | 7028 |
+| 16 | 说明书生成中 | oiGx9 | 过渡页 | 7530 |
+| 17 | 双猫匹配-邀请 | e0hPU | 子页面 | 8032 |
+| 18 | 爪速挑战-准备 | FtBq7 | 子页面 | 8534 |
+
+**可复用组件**: Icon/Home (g8iri, x=-200)
 
 ---
 
@@ -163,13 +194,15 @@ radius-xl: 16px (大卡片)
 ### 7.1 添加新页面
 
 ```javascript
-const x = 7 * 502; // 第8个页面位置
+// 使用 find_empty_space_on_canvas 找到空位
+// 当前最后一个页面在 x=8534，下一个页面约在 x=9036
 newPage = I(document, {
   type: "frame",
   name: "新页面名称",
-  x: x, y: 0,
+  x: 9036, y: 0,
   width: 402, height: 874,
-  fill: "$bg-page",
+  fill: "$bg-cream",
+  clip: true,
   layout: "vertical"
 })
 ```
@@ -233,41 +266,24 @@ mcp_pencil_replace_all_matching_properties({
 
 ---
 
-## 11. 已安装技能
+## 11. 设计规范文档
 
-**全局技能** (位于 `~/.agents/skills/`):
-- `pencil-ui-design` - Pencil MCP 工业级 UI 设计规范
-- `design-system-patterns` - 设计系统构建模式
-- `find-skills` - 技能查找工具
+**UI设计文档** (位于 `docs/design/ui/`):
+- `prd-gap-analysis.md` - PRD差距分析报告（P0/P1/P2缺失项）
+- `user-flows.md` - 用户流程图（Mermaid语法，7个功能模块）
+- `design-system.md` - 设计系统规范（颜色/字体/间距/圆角/阴影/组件/模板/图标/动效）
+- `interaction-specs.md` - 交互标注文档（18个页面逐一标注 + 5个关键流程）
 
-**使用方法**:
-```bash
-# 查看已安装技能
-npx skills list -g
-
-# 查找新技能
-npx skills find <keyword>
-
-# 安装技能
-npx skills add <owner/repo@skill> -g -y
-```
-
----
-
-## 12. 设计规范文档
+**设计指引** (位于 `docs/design/`):
+- `design-guidelines.md` - 项目设计指引
 
 **本地文档** (位于 `docs/rules/`):
 - `wechat-miniprogram-ui-design.md` - 微信小程序 UI 设计规范基础版
 - `wechat-miniprogram-complete-guide.md` - 完整版设计规范（含组件、动效、适配）
 
-**技能文档**:
-- `~/.agents/skills/pencil-ui-design/SKILL.md` - Pencil 设计系统规范
-- `~/.agents/skills/pencil-ui-design/components.md` - 组件详细规范
-- `~/.agents/skills/design-system-patterns/SKILL.md` - 设计系统模式
-
 ---
 
-## 13. 📝 变更记录规范 (MUST READ)
+## 12. 📝 变更记录规范 (MUST READ)
 
 ### 🚨 **强制要求：所有变更必须记录**
 
@@ -355,7 +371,7 @@ cat-mind/
 
 ---
 
-## 14. ⚠️ Pencil MCP 使用注意事项
+## 13. ⚠️ Pencil MCP 使用注意事项
 
 ### ❌ 常见错误
 
@@ -421,4 +437,4 @@ bash({ command: "python3 -c 'import json; json.load(open(\"cat.pen\"))'" })
 
 ---
 
-*最后更新: 2026-02-11*
+*最后更新: 2026-02-12*
