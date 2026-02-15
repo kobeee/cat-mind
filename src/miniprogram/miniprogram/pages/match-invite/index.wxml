@@ -1,0 +1,30 @@
+<view class="screen">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">邀请匹配</view>
+    <view class="icon-btn hide"></view>
+  </view>
+
+  <view class="cats">
+    <view class="cat-wrap">
+      <view class="avatar main">🐾</view>
+      <view>我的主子</view>
+    </view>
+    <view class="cat-wrap">
+      <view class="avatar wait">＋</view>
+      <view class="muted">等待加入</view>
+    </view>
+  </view>
+
+  <view class="muted center">邀请养猫的朋友一起测缘分，看看你们的猫有多配！</view>
+
+  <view class="card qr">
+    <view class="qr-box">▣▣
+      <view>▣▣</view>
+    </view>
+    <view class="muted">让朋友扫描此二维码加入匹配</view>
+  </view>
+
+  <view class="primary-btn" bindtap="onSend">发送给朋友</view>
+  <view class="secondary-btn save" bindtap="onSave">保存邀请海报</view>
+</view>

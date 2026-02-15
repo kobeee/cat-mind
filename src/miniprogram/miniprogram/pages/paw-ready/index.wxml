@@ -1,0 +1,23 @@
+<view class="screen dark">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">爪速挑战-准备</view>
+    <view class="icon-btn hide"></view>
+  </view>
+
+  <view class="hero">
+    <view class="dot"></view>
+  </view>
+
+  <view class="title">🐾 爪速大挑战</view>
+  <view class="muted text">让你家主子拍打屏幕上的红点，测试它的反应速度和爪速！</view>
+
+  <view class="dark-card rules">
+    <view class="rule-title">游戏规则</view>
+    <view class="rule">1 红点会在屏幕上随机出现</view>
+    <view class="rule">2 猫咪触碰屏幕即记录一次</view>
+    <view class="rule">3 15秒内尽可能多地触碰</view>
+  </view>
+
+  <view class="primary-btn" bindtap="onStart">开始挑战</view>
+</view>

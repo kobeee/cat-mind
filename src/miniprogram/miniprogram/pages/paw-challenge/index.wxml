@@ -1,0 +1,38 @@
+<view class="screen dark">
+  <view class="header">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="score-box">
+      <view class="num">{{combo}}</view>
+      <view class="label">连击</view>
+    </view>
+    <view class="score-box">
+      <view class="num gold">{{timeLeft}}</view>
+      <view class="label">秒</view>
+    </view>
+  </view>
+
+  <view class="arena dark-card">
+    <view
+      class="target"
+      wx:for="{{targets}}"
+      wx:key="id"
+      bindtap="onHit"
+      style="left: {{item.x}}%; top: {{item.y}}%;"
+    ></view>
+  </view>
+
+  <view class="result dark-card" wx:if="{{finished}}">
+    <view class="title">🎉 挑战完成！</view>
+    <view class="panel">
+      <view class="muted">本次测试有效出拳</view>
+      <view class="hits">{{totalHits}} 次</view>
+      <view class="desc">击败了全小区 99% 的猫！</view>
+    </view>
+    <view class="badge">🏆 无影爪宗师</view>
+  </view>
+
+  <view class="btn-row">
+    <view class="secondary-btn" bindtap="onReplay">再玩一次</view>
+    <view class="primary-btn" bindtap="onSharePoster">分享战绩</view>
+  </view>
+</view>

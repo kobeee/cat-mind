@@ -1,0 +1,74 @@
+.hide {
+  opacity: 0;
+}
+
+.poster {
+  margin-top: 24rpx;
+  text-align: center;
+}
+
+.brand {
+  color: #ffd166;
+  font-size: 24rpx;
+}
+
+.avatar {
+  width: 210rpx;
+  height: 210rpx;
+  margin: 20rpx auto 0;
+  border-radius: 50%;
+  border: 4rpx solid #ff7a50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70rpx;
+}
+
+.name {
+  margin-top: 20rpx;
+  font-size: 48rpx;
+  font-weight: 700;
+}
+
+.sub {
+  margin-top: 8rpx;
+}
+
+.stats {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.value {
+  color: #ffd166;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+.qr {
+  margin-top: 34rpx;
+  display: flex;
+  align-items: center;
+  gap: 14rpx;
+  text-align: left;
+}
+
+.qr-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 12rpx;
+  border: 2rpx solid #d3dae8;
+  color: #1a1f2d;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-row {
+  margin-top: 18rpx;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12rpx;
+}

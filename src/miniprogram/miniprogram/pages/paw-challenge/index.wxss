@@ -1,0 +1,87 @@
+.header {
+  height: 82rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score-box {
+  text-align: center;
+}
+
+.num {
+  color: #ff7a50;
+  font-size: 64rpx;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.gold {
+  color: #ffd166;
+}
+
+.label {
+  margin-top: 6rpx;
+  color: #9ea5b3;
+  font-size: 20rpx;
+}
+
+.arena {
+  height: 400rpx;
+  position: relative;
+  overflow: hidden;
+}
+
+.target {
+  position: absolute;
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  background: #ff6b5f;
+  box-shadow: 0 0 22rpx rgba(255, 107, 95, 0.8);
+}
+
+.result {
+  margin-top: 18rpx;
+}
+
+.title {
+  color: #ffd166;
+  font-size: 48rpx;
+  font-weight: 700;
+}
+
+.panel {
+  margin-top: 14rpx;
+  border-radius: 16rpx;
+  background: #2a2e3b;
+  padding: 20rpx;
+  text-align: center;
+}
+
+.hits {
+  margin-top: 10rpx;
+  font-size: 66rpx;
+  color: #ff7a50;
+  font-weight: 700;
+}
+
+.desc {
+  margin-top: 8rpx;
+}
+
+.badge {
+  margin-top: 14rpx;
+  width: fit-content;
+  padding: 10rpx 16rpx;
+  border-radius: 14rpx;
+  color: #2a1d00;
+  background: #ffd166;
+}
+
+.btn-row {
+  margin-top: 18rpx;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14rpx;
+}

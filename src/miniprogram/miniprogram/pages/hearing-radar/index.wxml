@@ -1,0 +1,28 @@
+<view class="screen">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">听觉敏感度雷达图</view>
+    <view class="icon-btn hide"></view>
+  </view>
+
+  <view class="header-title">🎧 听力测试完成</view>
+  <view class="muted">已完成 {{recordCount}} 项声音测试，生成听觉敏感度分析</view>
+
+  <view class="chart card">
+    <view class="ring"></view>
+    <view class="labels">召唤系 / 挑衅系 / 猎奇系 / 高频音 / 低频音 / 突发音</view>
+  </view>
+
+  <view class="result dark-card">
+    <view class="title">🏷️ {{result.title}}</view>
+    <view class="desc">{{result.desc}}</view>
+    <view class="tag-row">
+      <view class="tag" wx:for="{{result.tags}}" wx:key="*this">{{item}}</view>
+    </view>
+  </view>
+
+  <view class="actions">
+    <view class="secondary-btn" bindtap="onRetry">重新测试</view>
+    <view class="primary-btn" bindtap="onSharePoster">分享结果</view>
+  </view>
+</view>

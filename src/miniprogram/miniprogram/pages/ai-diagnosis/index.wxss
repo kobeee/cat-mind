@@ -1,0 +1,73 @@
+.score-card {
+  text-align: center;
+}
+
+.photo-ring {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 8rpx auto 18rpx;
+  border: 4rpx solid #ff7a50;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60rpx;
+  color: #9ca3af;
+}
+
+.score-main {
+  font-size: 80rpx;
+  font-weight: 800;
+  color: #ff6f5f;
+}
+
+.score-main text {
+  font-size: 36rpx;
+}
+
+.score-tag {
+  font-size: 42rpx;
+  font-weight: 700;
+  margin-bottom: 10rpx;
+}
+
+.quote {
+  margin-top: 16rpx;
+  color: #fff;
+  font-size: 30rpx;
+  font-style: italic;
+}
+
+.tags {
+  margin-top: 16rpx;
+}
+
+.tag-title {
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.tag-grid {
+  margin-top: 16rpx;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12rpx;
+}
+
+.tag {
+  height: 56rpx;
+  border-radius: 14rpx;
+  background: #f7f3ea;
+  color: #9c6a3a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22rpx;
+}
+
+.btns {
+  margin-top: 22rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 14rpx;
+}

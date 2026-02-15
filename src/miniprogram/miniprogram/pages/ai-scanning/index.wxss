@@ -1,0 +1,67 @@
+.hide {
+  opacity: 0;
+}
+
+.scan-box {
+  margin-top: 50rpx;
+  min-height: 420rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid #ff7a50;
+}
+
+.target {
+  font-size: 72rpx;
+}
+
+.line {
+  width: 80%;
+  height: 2rpx;
+  margin: 28rpx 0;
+  background: linear-gradient(90deg, transparent, #2cf4cf, transparent);
+}
+
+.labels {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #29d39a;
+  font-size: 20rpx;
+}
+
+.status-title {
+  margin-top: 30rpx;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.bar {
+  margin-top: 16rpx;
+  height: 8rpx;
+  border-radius: 8rpx;
+  background: #3e4355;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff7a50, #ff6b6b);
+}
+
+.percent {
+  margin-top: 14rpx;
+  color: #ff8a65;
+  text-align: center;
+}
+
+.steps {
+  margin-top: 30rpx;
+  color: #b8d4c9;
+  font-size: 22rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 14rpx;
+}

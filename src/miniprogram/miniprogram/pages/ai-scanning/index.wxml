@@ -1,0 +1,27 @@
+<view class="screen dark">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">✕</view>
+    <view class="nav-title">AI分析中</view>
+    <view class="icon-btn hide"></view>
+  </view>
+
+  <view class="scan-box dark-card">
+    <view class="target">🐾</view>
+    <view class="line"></view>
+    <view class="labels">
+      <text>● 瞳孔</text>
+      <text>● 耳型</text>
+      <text>● 胡须</text>
+    </view>
+  </view>
+
+  <view class="status-title">正在分析面部特征...</view>
+  <view class="bar">
+    <view class="fill" style="width: {{progress}}%;"></view>
+  </view>
+  <view class="percent">{{progress}}%</view>
+
+  <view class="steps">
+    <view class="step" wx:for="{{steps}}" wx:key="*this">✓ {{item}}</view>
+  </view>
+</view>

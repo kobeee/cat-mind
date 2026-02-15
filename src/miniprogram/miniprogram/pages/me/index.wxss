@@ -1,0 +1,76 @@
+.center-nav {
+  justify-content: center;
+}
+
+.user-card {
+  text-align: center;
+  margin-top: 12rpx;
+}
+
+.avatar {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #ff7a50, #ff6b6b);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  margin-top: 12rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+.stats {
+  margin-top: 16rpx;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+  border-left: 1rpx solid #eceff4;
+}
+
+.item:first-child {
+  border-left: none;
+}
+
+.num {
+  font-size: 42rpx;
+  font-weight: 700;
+}
+
+.coral {
+  color: #ff7a50;
+}
+
+.gold {
+  color: #f5b835;
+}
+
+.green {
+  color: #34c759;
+}
+
+.setting {
+  margin-top: 12rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout {
+  margin-top: 18rpx;
+  height: 88rpx;
+  border-radius: 20rpx;
+  border: 2rpx solid #ff7a50;
+  color: #ff524c;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

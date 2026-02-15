@@ -1,0 +1,33 @@
+<view class="screen">
+  <view class="nav center-nav">
+    <view class="nav-title">排行榜</view>
+  </view>
+
+  <view class="segment">
+    <view class="segment-item" bindtap="onToSpeed">⚡ 手速榜</view>
+    <view class="segment-item beauty-active">😸 颜值榜</view>
+  </view>
+
+  <view class="podium">
+    <view class="podium-item" wx:for="{{top3}}" wx:key="rank">
+      <view class="ball" style="background: {{item.color}};"></view>
+      <view class="muted">🐾 #{{item.rank}}</view>
+      <view class="name">{{item.name}}</view>
+      <view class="score">{{item.score}} {{item.subtitle}}</view>
+    </view>
+  </view>
+
+  <view class="rank-card card" wx:for="{{list}}" wx:key="rank">
+    <view class="rank">{{item.rank}}</view>
+    <view class="ball sm" style="background: {{item.color}};"></view>
+    <view class="meta">
+      <view class="name">{{item.name}}</view>
+      <view class="muted">{{item.subtitle}}</view>
+    </view>
+    <view class="score">{{item.score}}</view>
+  </view>
+
+  <view class="muted footer">只有生成了说明书的猫咪才能上榜</view>
+
+  <tab-bar active="ranking" />
+</view>

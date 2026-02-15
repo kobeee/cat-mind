@@ -1,0 +1,68 @@
+.center-nav {
+  justify-content: center;
+}
+
+.profile {
+  margin-top: 12rpx;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 14rpx;
+}
+
+.avatar {
+  width: 84rpx;
+  height: 84rpx;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff7a50, #ff6b6b);
+}
+
+.name {
+  font-size: 46rpx;
+  font-weight: 700;
+}
+
+.type {
+  color: #ffd166;
+}
+
+.stats {
+  margin: 18rpx 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12rpx;
+}
+
+.stat {
+  min-height: 100rpx;
+}
+
+.value {
+  margin-top: 6rpx;
+  font-weight: 700;
+}
+
+.small {
+  font-size: 22rpx;
+}
+
+.title-row {
+  margin-top: 12rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.record {
+  margin-top: 12rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.record-title {
+  font-size: 28rpx;
+  font-weight: 600;
+}

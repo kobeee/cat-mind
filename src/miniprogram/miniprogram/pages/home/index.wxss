@@ -1,0 +1,99 @@
+.brand-title {
+  font-size: 52rpx;
+  font-weight: 700;
+}
+
+.brand-sub {
+  margin-top: 8rpx;
+  font-size: 22rpx;
+}
+
+.avatar-dot {
+  width: 46rpx;
+  height: 46rpx;
+  border-radius: 50%;
+  background: #ececf0;
+}
+
+.daily-card {
+  margin-top: 18rpx;
+}
+
+.daily-head {
+  color: #f9d74b;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+
+.daily-date,
+.daily-weather,
+.daily-desc {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}
+
+.daily-desc {
+  color: #f4f5f8;
+  font-size: 34rpx;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.good-box,
+.bad-box {
+  margin-top: 14rpx;
+  border-radius: 16rpx;
+  height: 64rpx;
+  padding: 0 18rpx;
+  display: flex;
+  align-items: center;
+  font-size: 22rpx;
+}
+
+.good-box {
+  color: #d7ffea;
+  background: linear-gradient(90deg, #20c05e, #2dcf70);
+}
+
+.bad-box {
+  color: #fff3f3;
+  background: linear-gradient(90deg, #ff514f, #f43337);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16rpx;
+}
+
+.feature-card {
+  min-height: 180rpx;
+}
+
+.feature-emoji {
+  width: 56rpx;
+  height: 56rpx;
+  border-radius: 50%;
+  background: #ffe3d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+
+.feature-title {
+  margin-top: 16rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.feature-desc {
+  margin-top: 8rpx;
+  font-size: 22rpx;
+}
+
+.more-card {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}

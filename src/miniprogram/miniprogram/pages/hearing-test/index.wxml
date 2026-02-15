@@ -1,0 +1,40 @@
+<view class="screen">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">喵语听力统考</view>
+    <view class="icon-btn"></view>
+  </view>
+
+  <view class="title">👂 听力与性格关联实验</view>
+  <view class="muted sub">播放声音，观察主子反应，生成听觉雷达图</view>
+
+  <view class="segment">
+    <view
+      class="segment-item {{activeCategory === index ? 'active' : ''}}"
+      wx:for="{{categories}}"
+      wx:key="*this"
+      data-idx="{{index}}"
+      bindtap="onPickCategory"
+    >{{item}}</view>
+  </view>
+
+  <view class="sound-grid">
+    <view class="sound card" wx:for="{{sounds}}" wx:key="id" bindtap="onPlaySound" data-id="{{item.id}}">
+      <view class="icon">{{item.icon}}</view>
+      <view class="name">{{item.name}}</view>
+      <view class="muted">{{item.desc}}</view>
+      <view class="play">▶</view>
+    </view>
+  </view>
+
+  <view class="primary-btn build" bindtap="onBuildRadar">生成听觉雷达图</view>
+
+  <view class="mask" wx:if="{{showModal}}" bindtap="onCloseModal">
+    <view class="modal dark-card" catchtap="noop">
+      <view class="modal-title">主子反应如何？</view>
+      <view class="modal-option" wx:for="{{reactions}}" wx:key="*this" data-reaction="{{item}}" bindtap="onPickReaction">
+        {{item}}
+      </view>
+    </view>
+  </view>
+</view>

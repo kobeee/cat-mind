@@ -1,0 +1,43 @@
+<view class="screen">
+  <view class="nav center-nav">
+    <view class="nav-title">档案</view>
+  </view>
+
+  <view class="dark-card profile">
+    <view class="row">
+      <view class="avatar"></view>
+      <view>
+        <view class="name">{{profile.name}}</view>
+        <view class="type">{{profile.type}}</view>
+      </view>
+    </view>
+
+    <view class="stats">
+      <view class="card stat">
+        <view class="muted">面相评分</view>
+        <view class="value">{{profile.score}}</view>
+      </view>
+      <view class="card stat">
+        <view class="muted">出厂型号</view>
+        <view class="value small">{{profile.code}}</view>
+      </view>
+    </view>
+
+    <view class="primary-btn" bindtap="onViewManual">查看完整说明书 →</view>
+  </view>
+
+  <view class="title-row">
+    <view class="section-title">测试记录</view>
+    <view class="muted small">查看全部</view>
+  </view>
+
+  <view class="record card" wx:for="{{records}}" wx:key="title" data-title="{{item.title}}" bindtap="onOpenRecord">
+    <view>
+      <view class="record-title">{{item.title}}</view>
+      <view class="muted">{{item.desc}}</view>
+    </view>
+    <view class="muted">›</view>
+  </view>
+
+  <tab-bar active="archive" />
+</view>

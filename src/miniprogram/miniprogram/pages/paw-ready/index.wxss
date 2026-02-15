@@ -1,0 +1,49 @@
+.hide {
+  opacity: 0;
+}
+
+.hero {
+  width: 220rpx;
+  height: 220rpx;
+  border-radius: 50%;
+  margin: 38rpx auto;
+  background: #171b26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 66rpx;
+  height: 66rpx;
+  border-radius: 50%;
+  background: #ff5c5c;
+  box-shadow: 0 0 24rpx #ff5c5c;
+}
+
+.title {
+  text-align: center;
+  font-size: 52rpx;
+  font-weight: 700;
+}
+
+.text {
+  margin-top: 12rpx;
+  text-align: center;
+  font-size: 24rpx;
+}
+
+.rules {
+  margin: 28rpx 0;
+}
+
+.rule-title {
+  color: #ffd166;
+  font-size: 24rpx;
+  margin-bottom: 14rpx;
+}
+
+.rule {
+  margin-top: 10rpx;
+  color: #d9dde7;
+}

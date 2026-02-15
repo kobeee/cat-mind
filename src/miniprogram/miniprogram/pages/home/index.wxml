@@ -1,0 +1,50 @@
+<view class="screen">
+  <view class="nav">
+    <view>
+      <view class="brand-title">喵星说明书</view>
+      <view class="brand-sub muted">科学破译你家主子的出厂设置</view>
+    </view>
+    <view class="avatar-dot"></view>
+  </view>
+
+  <view class="daily-card dark-card">
+    <view class="daily-head">📅 {{daily.title}}</view>
+    <view class="daily-date">{{today}}</view>
+    <view class="daily-weather">{{daily.weather}}</view>
+    <view class="daily-desc">{{daily.description}}</view>
+    <view class="good-box">✅ 宜 {{daily.good}}</view>
+    <view class="bad-box">❌ 忌 {{daily.bad}}</view>
+  </view>
+
+  <view class="section-title">探索功能</view>
+  <view class="feature-grid">
+    <view
+      class="feature-card card"
+      wx:for="{{features}}"
+      wx:key="key"
+      bindtap="onGo"
+      data-route="{{item.route}}"
+    >
+      <view class="feature-emoji">{{item.emoji}}</view>
+      <view class="feature-title">{{item.title}}</view>
+      <view class="feature-desc muted">{{item.desc}}</view>
+    </view>
+  </view>
+
+  <view class="section-title">更多玩法</view>
+  <view
+    class="more-card card"
+    wx:for="{{moreEntries}}"
+    wx:key="key"
+    bindtap="onGo"
+    data-route="{{item.route}}"
+  >
+    <view class="feature-emoji">{{item.emoji}}</view>
+    <view>
+      <view class="feature-title">{{item.title}}</view>
+      <view class="feature-desc muted">{{item.desc}}</view>
+    </view>
+  </view>
+
+  <tab-bar active="home" />
+</view>

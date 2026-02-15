@@ -1,0 +1,18 @@
+<view class="tab-shell">
+  <view class="tab-item {{active === 'home' ? 'active' : ''}}" data-key="home" bindtap="onTap">
+    <text class="icon">⌂</text>
+    <text>首页</text>
+  </view>
+  <view class="tab-item {{active === 'archive' ? 'active' : ''}}" data-key="archive" bindtap="onTap">
+    <text class="icon">⌂</text>
+    <text>档案</text>
+  </view>
+  <view class="tab-item {{active === 'ranking' ? 'active' : ''}}" data-key="ranking" bindtap="onTap">
+    <text class="icon">◷</text>
+    <text>排行</text>
+  </view>
+  <view class="tab-item {{active === 'me' ? 'active' : ''}}" data-key="me" bindtap="onTap">
+    <text class="icon">◌</text>
+    <text>我的</text>
+  </view>
+</view>

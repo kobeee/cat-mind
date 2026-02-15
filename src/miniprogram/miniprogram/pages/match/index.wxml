@@ -1,0 +1,44 @@
+<view class="screen">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">测测缘分</view>
+    <view class="icon-btn" bindtap="onSharePoster">↗</view>
+  </view>
+
+  <view class="title">💕 双猫缘分匹配</view>
+  <view class="muted">看看你家主子和朋友家的猫有多配</view>
+
+  <view class="cat-row">
+    <view class="cat card">
+      <view class="avatar coral"></view>
+      <view class="name">{{dataSource.myName}}</view>
+      <view class="muted">{{dataSource.myType}}</view>
+    </view>
+    <view class="percent-wrap">
+      <view class="percent">{{dataSource.percent}}%</view>
+      <view class="muted">缘分匹配度</view>
+    </view>
+    <view class="cat card">
+      <view class="avatar gold"></view>
+      <view class="name">{{dataSource.friendName}}</view>
+      <view class="muted">{{dataSource.friendType}}</view>
+    </view>
+  </view>
+
+  <view class="dark-card result">
+    <view class="result-title">🎊 匹配结果</view>
+    <view class="result-main">{{dataSource.suggestionTitle}}</view>
+    <view class="result-desc">{{dataSource.suggestionDesc}}</view>
+    <view class="indexes">
+      <view class="idx coral-bg">主动指数 {{dataSource.myIndex}}</view>
+      <view class="idx gold-bg">撒娇指数 {{dataSource.friendIndex}}</view>
+    </view>
+  </view>
+
+  <view class="card invite">邀请朋友测试，分享独特猫咪日志</view>
+
+  <view class="actions">
+    <view class="secondary-btn" bindtap="onInvite">生成海报</view>
+    <view class="primary-btn" bindtap="onAgain">再测一只</view>
+  </view>
+</view>

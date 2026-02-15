@@ -1,0 +1,46 @@
+<view class="screen dark">
+  <view class="top-line"></view>
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">喵星说明书</view>
+    <view class="icon-btn" bindtap="onSharePoster">↗</view>
+  </view>
+
+  <view class="dark-card model-card">
+    <view class="badge">{{manual.modelTag}}</view>
+    <view>
+      <view class="model-name">{{manual.modelName}}</view>
+      <view class="model-code">{{manual.modelCode}}</view>
+    </view>
+    <view class="score-wrap">
+      <view class="muted small">面相评分</view>
+      <view class="score">{{manual.score}}</view>
+    </view>
+  </view>
+
+  <view class="dark-card quote-card">
+    <view class="quote-title">核心槽点</view>
+    <view class="quote">{{manual.quote}}</view>
+  </view>
+
+  <view class="dark-card spec-card">
+    <view class="spec-title">性能参数</view>
+    <view class="spec-row" wx:for="{{manual.specs}}" wx:key="label">
+      <text class="muted">{{item.label}}</text>
+      <text>{{item.value}}</text>
+    </view>
+  </view>
+
+  <view class="dark-card guide-card">
+    <view class="spec-title">维护指南</view>
+    <view class="guide-box">
+      <view class="good">✓ 宜 {{manual.guideGood}}</view>
+      <view class="bad">✗ 忌 {{manual.guideBad}}</view>
+    </view>
+  </view>
+
+  <view class="btn-wrap">
+    <view class="primary-btn" bindtap="onSave">保存说明书</view>
+    <view class="secondary-btn" bindtap="onInvite">邀请朋友测缘分</view>
+  </view>
+</view>

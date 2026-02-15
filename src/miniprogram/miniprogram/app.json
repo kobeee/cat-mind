@@ -1,12 +1,28 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/index",
+    "pages/ai-face/index",
+    "pages/ai-scanning/index",
+    "pages/ai-diagnosis/index",
+    "pages/cbti-test/index",
+    "pages/manual-generating/index",
+    "pages/manual/index",
+    "pages/hearing-test/index",
+    "pages/hearing-radar/index",
+    "pages/paw-ready/index",
+    "pages/paw-challenge/index",
+    "pages/match/index",
+    "pages/match-invite/index",
+    "pages/share-poster/index",
+    "pages/archive/index",
+    "pages/rank-speed/index",
+    "pages/rank-beauty/index",
+    "pages/me/index"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarBackgroundColor": "#ffffff"
+    "navigationStyle": "custom",
+    "backgroundColor": "#F5F5F7",
+    "backgroundTextStyle": "dark"
   },
   "style": "v2",
   "componentFramework": "glass-easel",

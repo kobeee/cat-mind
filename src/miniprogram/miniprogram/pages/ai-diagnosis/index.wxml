@@ -1,0 +1,28 @@
+<view class="screen">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">喵相诊断单</view>
+    <view class="icon-btn" bindtap="onSharePoster">↗</view>
+  </view>
+
+  <view class="score-card card">
+    <view class="photo-ring">🐾</view>
+    <view class="score-main">98 <text>分</text></view>
+    <view class="score-tag">旺家相</view>
+    <view class="muted">面相圆润饱满，天庭开阔，一看就是被宠大的</view>
+  </view>
+
+  <view class="quote dark-card">“这就是一张没受过欺负的脸”</view>
+
+  <view class="tags card">
+    <view class="tag-title">🔍 面相识别结果</view>
+    <view class="tag-grid">
+      <view class="tag" wx:for="{{tags}}" wx:key="*this">{{item}}</view>
+    </view>
+  </view>
+
+  <view class="btns">
+    <view class="primary-btn" bindtap="onCbti">开始CBTI深度测试</view>
+    <view class="secondary-btn" bindtap="onSharePoster">分享诊断单</view>
+  </view>
+</view>

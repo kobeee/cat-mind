@@ -1,0 +1,36 @@
+<view class="screen">
+  <view class="nav center-nav">
+    <view class="nav-title">我的</view>
+  </view>
+
+  <view class="card user-card">
+    <view class="avatar">◌</view>
+    <view class="name">{{nickname}}</view>
+    <view class="muted">ID: {{userId}}</view>
+
+    <view class="stats">
+      <view class="item">
+        <view class="num coral">{{stats[0]}}</view>
+        <view class="muted">测试次数</view>
+      </view>
+      <view class="item">
+        <view class="num gold">{{stats[1]}}</view>
+        <view class="muted">获得徽章</view>
+      </view>
+      <view class="item">
+        <view class="num green">{{stats[2]}}</view>
+        <view class="muted">连续天数</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="section-title">设置</view>
+  <view class="setting card" wx:for="{{settings}}" wx:key="*this" data-label="{{item}}" bindtap="onOpenSetting">
+    <view>{{item}}</view>
+    <view class="muted">›</view>
+  </view>
+
+  <view class="logout" bindtap="onLogout">退出登录</view>
+
+  <tab-bar active="me" />
+</view>

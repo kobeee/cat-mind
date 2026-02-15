@@ -1,0 +1,103 @@
+.progress-text {
+  color: #ff7a50;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+
+.top-bar {
+  margin-top: 10rpx;
+  height: 6rpx;
+  border-radius: 8rpx;
+  background: #eadfe3;
+  overflow: hidden;
+}
+
+.top-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff7a50, #ff6b6b);
+}
+
+.question-card {
+  margin-top: 20rpx;
+}
+
+.q-no {
+  color: #ff7a50;
+  font-size: 20rpx;
+}
+
+.q-title {
+  margin-top: 8rpx;
+  font-size: 44rpx;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.option-wrap {
+  margin-top: 16rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 14rpx;
+}
+
+.option {
+  height: 82rpx;
+  border-radius: 18rpx;
+  border: 1rpx solid #d3d8e0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+}
+
+.option.active {
+  color: #fff;
+  border: none;
+  background: linear-gradient(120deg, #1f222f, #121621);
+}
+
+.mark {
+  width: 38rpx;
+  height: 38rpx;
+  border-radius: 50%;
+  background: #eef1f5;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20rpx;
+}
+
+.option.active .mark {
+  background: #ff7a50;
+  color: #fff;
+}
+
+.tip {
+  text-align: center;
+  margin: 26rpx 0;
+  font-size: 22rpx;
+}
+
+.actions {
+  display: flex;
+  gap: 16rpx;
+}
+
+.prev {
+  width: 140rpx;
+  height: 88rpx;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #6b7280;
+  border: 1rpx solid #d7dbe3;
+}
+
+.next {
+  flex: 1;
+}

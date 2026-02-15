@@ -1,0 +1,14 @@
+<view class="screen dark center">
+  <view class="paw-bg">
+    <view class="paw">🐾</view>
+  </view>
+  <view class="gen-title">正在生成说明书...</view>
+  <view class="gen-sub">AI正在分析你家主子的20项行为数据</view>
+
+  <view class="bar">
+    <view class="fill" style="width: {{progress}}%;"></view>
+  </view>
+
+  <view class="tip-label">💡 你知道吗？</view>
+  <view class="tip-content">{{tips[tipIndex]}}</view>
+</view>

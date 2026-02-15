@@ -1,0 +1,39 @@
+<view class="screen">
+  <view class="nav">
+    <view class="icon-btn" bindtap="onBack">←</view>
+    <view class="nav-title">AI喵相学</view>
+    <view class="icon-btn"> </view>
+  </view>
+
+  <view class="title-wrap">
+    <view class="main">📸 面相速测</view>
+    <view class="sub muted">上传猫咪正脸照，AI为你解读喵星密码</view>
+  </view>
+
+  <view class="upload card" bindtap="onPick">
+    <image wx:if="{{imagePath}}" class="photo" src="{{imagePath}}" mode="aspectFill" />
+    <block wx:else>
+      <view class="ring"></view>
+      <view class="upload-text">点击上传猫咪照片</view>
+      <view class="muted">支持 JPG、PNG 格式</view>
+    </block>
+  </view>
+
+  <view class="scan dark-card">
+    <view class="scan-head">
+      <text>✨ 扫描中...</text>
+      <text>{{scanPercent}}%</text>
+    </view>
+    <view class="progress">
+      <view class="progress-fill" style="width: {{scanPercent}}%;"></view>
+    </view>
+    <view class="tag-row">
+      <view class="tag" wx:for="{{tags}}" wx:key="*this">{{item}}</view>
+    </view>
+  </view>
+
+  <view class="btn-wrap">
+    <view class="primary-btn" bindtap="onStart">开始面相分析</view>
+    <view class="secondary-btn" bindtap="onPick">从相册选择</view>
+  </view>
+</view>

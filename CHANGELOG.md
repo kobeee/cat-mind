@@ -1,3 +1,57 @@
+## [2026-02-14 21:20] - 小程序端一次性研发落地（Mock闭环）
+
+### 变更类型
+- [新增] 新增小程序端完整页面体系（18个视觉页）
+- [新增] 新增前端 Mock 数据层与本地持久化能力
+- [新增] 新增详细研发设计文档（docs/design/miniprogram）
+- [优化] 重构小程序工程结构，替换默认模板代码
+
+### 变更内容
+1. 完成前端详细方案文档（唯一路径）
+   - 新增 `docs/design/miniprogram/01-overview-and-architecture.md`
+   - 新增 `docs/design/miniprogram/02-page-spec-and-flow.md`
+   - 新增 `docs/design/miniprogram/03-development-plan.md`
+2. 完成小程序基础骨架
+   - 重写 `app.json`，注册 18 个页面路由
+   - 重写 `app.ts` 与 `app.wxss`，建立全局主题 Token 与基础样式
+   - 新增 `components/tab-bar`，实现自定义底部导航
+3. 完成数据与工具层
+   - 新增 `mock/*`：首页、CBTI、排行、档案、听力、匹配、海报等 Mock 数据
+   - 新增 `utils/routes.ts`、`utils/navigation.ts`、`utils/storage.ts`、`utils/haptics.ts`、`utils/date.ts`
+4. 一次性实现全部业务页面与主流程闭环
+   - 首页/档案/排行（手速+颜值）/我的
+   - AI链路：AI喵相学 → AI扫描中 → AI喵相诊断单 → CBTI测试 → 说明书生成中 → 喵星说明书
+   - 实验室链路：喵语听力统考 → 听觉雷达图结果；爪速挑战-准备 → 爪速大挑战
+   - 社交链路：双猫匹配 → 双猫匹配-邀请 → 分享海报
+   - 所有关键按钮与页面跳转可形成产品功能闭环
+5. 研发规范控制
+   - 单文件长度控制在约 200 行以内
+   - 严格限定代码在 `src/miniprogram/**`，未改动 `src/backend/**`
+
+### 影响范围
+- 页面/组件: 小程序端全部页面（18页）+ TabBar组件
+- 数据层: 本地 Mock 与 Storage 持久化
+- 文件:
+  - `src/miniprogram/miniprogram/app.json`
+  - `src/miniprogram/miniprogram/app.ts`
+  - `src/miniprogram/miniprogram/app.wxss`
+  - `src/miniprogram/miniprogram/components/tab-bar/*`
+  - `src/miniprogram/miniprogram/mock/*`
+  - `src/miniprogram/miniprogram/utils/*`
+  - `src/miniprogram/miniprogram/pages/*`
+  - `docs/design/miniprogram/*`
+  - `src/miniprogram/tsconfig.json`
+
+### 截图验证
+- [ ] weapp-dev 自动截图验证（连接超时，待你本地工具侧确认）
+- [x] 已完成代码级自检（TypeScript 编译通过）
+
+### 备注
+- 已调用 weapp-dev 进行连接验证，`mp_ensureConnection` 与 `mp_currentPage` 均超时，推测本地开发者工具自动化通道未就绪。
+- 当前版本为“前端完整可运行 + Mock闭环”交付版，可直接进入你的验收流程。
+
+---
+
 ## [2026-02-12 21:30] - AI喵相诊断单页面全面优化
 
 ### 变更类型
