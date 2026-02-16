@@ -7,22 +7,37 @@
         "visual_studio_code"
       ]
     },
-    "weapp-dev": {
+    "xcodebuild": {
+      "command": "npx",
+      "args": [
+        "-y", 
+        "xcodebuildmcp@latest", 
+        "mcp"
+      ]
+    },
+    "ios-simulator": {
       "command": "npx",
       "args": [
         "-y",
-        "-p",
-        "@modelcontextprotocol/sdk@1.17.2",
-        "-p",
-        "fastmcp@3.23.0",
-        "-p",
-        "@yfme/weapp-dev-mcp",
-        "weapp-dev-mcp"
-      ],
-      "env": {
-        "WEAPP_WS_ENDPOINT": "ws://localhost:10062",
-        "WEAPP_AUTOMATOR_MODE": "connect"
-      }
+        "ios-simulator-mcp"
+      ]
     }
+    // "weapp-dev": {
+    //   "command": "npx",
+    //   "args": [
+    //     "-y",
+    //     "-p",
+    //     "@modelcontextprotocol/sdk@1.17.2",
+    //     "-p",
+    //     "fastmcp@3.23.0",
+    //     "-p",
+    //     "@yfme/weapp-dev-mcp",
+    //     "weapp-dev-mcp"
+    //   ],
+    //   "env": {
+    //     "WEAPP_WS_ENDPOINT": "ws://localhost:10062",
+    //     "WEAPP_AUTOMATOR_MODE": "connect"
+    //   }
+    // }
   }
 }

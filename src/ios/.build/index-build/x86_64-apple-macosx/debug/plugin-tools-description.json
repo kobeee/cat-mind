@@ -1,0 +1,551 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MeowManual-x86_64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/sources",
+      "importPath" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/App/MeowManualApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Colors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMNavigationBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMProgressBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Spacing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Typography.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CBTIQuestion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CatProfile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/TestResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Services/MockDataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceResultView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIScanningView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Archive/ArchiveView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/CBTITestView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/ManualGeneratingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingRadarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingTestView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Home/HomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Manual/ManualResultView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchInviteView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/SharePosterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawGameView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawReadyView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Profile/ProfileView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankBeautyView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankSpeedView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MeowManual",
+      "moduleOutputPath" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/Modules/MeowManual.swiftmodule",
+      "objects" : [
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/MeowManualApp.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/Colors.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/MMButton.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/MMNavigationBar.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/MMProgressBar.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/Spacing.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/Typography.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/CBTIQuestion.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/CatProfile.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/TestResult.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/MockDataService.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/AIFaceResultView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/AIFaceView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/AIScanningView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/ArchiveView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/CBTITestView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/ManualGeneratingView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/HearingRadarView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/HearingTestView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/HomeView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/ManualResultView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/MatchInviteView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/MatchView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/SharePosterView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/PawGameView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/PawReadyView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/ProfileView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/RankBeautyView.swift.o",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/RankSpeedView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-swift-version",
+        "5",
+        "-enable-experimental-feature",
+        "SwiftUI",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ios"
+      ],
+      "outputFileMapPath" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/Modules/MeowManual.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/App/MeowManualApp.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Colors.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMButton.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMNavigationBar.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMProgressBar.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Spacing.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Typography.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CBTIQuestion.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CatProfile.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/TestResult.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Services/MockDataService.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceResultView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIScanningView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Archive/ArchiveView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/CBTITestView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/ManualGeneratingView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingRadarView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingTestView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Home/HomeView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Manual/ManualResultView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchInviteView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/SharePosterView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawGameView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawReadyView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Profile/ProfileView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankBeautyView.swift",
+        "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankSpeedView.swift"
+      ],
+      "tempsPath" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MeowManual" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MeowManual",
+      "-package-name",
+      "ios",
+      "-c",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/App/MeowManualApp.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Colors.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMButton.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMNavigationBar.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMProgressBar.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Spacing.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Typography.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CBTIQuestion.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CatProfile.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/TestResult.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Services/MockDataService.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceResultView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIScanningView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Archive/ArchiveView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/CBTITestView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/ManualGeneratingView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingRadarView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingTestView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Home/HomeView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Manual/ManualResultView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchInviteView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/SharePosterView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawGameView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawReadyView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Profile/ProfileView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankBeautyView.swift",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankSpeedView.swift",
+      "-I",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/Modules",
+      "-target",
+      "x86_64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-swift-version",
+      "5",
+      "-enable-experimental-feature",
+      "SwiftUI",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ios",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MeowManual" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/App/MeowManualApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Colors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMNavigationBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Components/MMProgressBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Spacing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/DesignSystem/Typography.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CBTIQuestion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/CatProfile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Models/TestResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Core/Services/MockDataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceResultView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIFaceView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/AIFace/AIScanningView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Archive/ArchiveView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/CBTITestView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/CBTI/ManualGeneratingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingRadarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Hearing/HearingTestView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Home/HomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Manual/ManualResultView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchInviteView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/MatchView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Match/SharePosterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawGameView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/PawChallenge/PawReadyView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Profile/ProfileView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankBeautyView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/MeowManual/Features/Rank/RankSpeedView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/MeowManual.build/sources"
+    },
+    "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/elvis/Documents/codes/challenges/2026/Jan/cat-mind/src/ios/.build/index-build/x86_64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

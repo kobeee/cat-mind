@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000101 /* Colors.swift */; };
+		AA000002 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000102 /* Typography.swift */; };
+		AA000003 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000103 /* Spacing.swift */; };
+		AA000004 /* MMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000104 /* MMButton.swift */; };
+		AA000005 /* MMNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000105 /* MMNavigationBar.swift */; };
+		AA000006 /* MMProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000106 /* MMProgressBar.swift */; };
+		AA000007 /* CatProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000107 /* CatProfile.swift */; };
+		AA000008 /* CBTIQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000108 /* CBTIQuestion.swift */; };
+		AA000009 /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000109 /* TestResult.swift */; };
+		AA00000A /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00010A /* MockDataService.swift */; };
+		AA00000B /* MeowManualApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00010B /* MeowManualApp.swift */; };
+		AA00000C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00010C /* HomeView.swift */; };
+		AA00000D /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00010D /* ArchiveView.swift */; };
+		AA00000E /* RankSpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00010E /* RankSpeedView.swift */; };
+		AA00000F /* RankBeautyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00010F /* RankBeautyView.swift */; };
+		AA000010 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000110 /* ProfileView.swift */; };
+		AA000011 /* AIFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000111 /* AIFaceView.swift */; };
+		AA000012 /* CBTITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000112 /* CBTITestView.swift */; };
+		AA000013 /* HearingTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000113 /* HearingTestView.swift */; };
+		AA000014 /* HearingRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000114 /* HearingRadarView.swift */; };
+		AA000015 /* PawReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000115 /* PawReadyView.swift */; };
+		AA000016 /* PawGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000116 /* PawGameView.swift */; };
+		AA000017 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000117 /* MatchView.swift */; };
+		AA000018 /* MatchInviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000118 /* MatchInviteView.swift */; };
+		AA000019 /* SharePosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000119 /* SharePosterView.swift */; };
+		AA00001A /* ManualResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00011A /* ManualResultView.swift */; };
+		AA00001B /* AIFaceResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00011B /* AIFaceResultView.swift */; };
+		AA00001C /* AIScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00011C /* AIScanningView.swift */; };
+		AA00001D /* ManualGeneratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00011D /* ManualGeneratingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000101 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = Core/DesignSystem/Colors.swift; sourceTree = "<group>"; };
+		AA000102 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Typography.swift; path = Core/DesignSystem/Typography.swift; sourceTree = "<group>"; };
+		AA000103 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Spacing.swift; path = Core/DesignSystem/Spacing.swift; sourceTree = "<group>"; };
+		AA000104 /* MMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMButton.swift; path = Core/DesignSystem/Components/MMButton.swift; sourceTree = "<group>"; };
+		AA000105 /* MMNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMNavigationBar.swift; path = Core/DesignSystem/Components/MMNavigationBar.swift; sourceTree = "<group>"; };
+		AA000106 /* MMProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMProgressBar.swift; path = Core/DesignSystem/Components/MMProgressBar.swift; sourceTree = "<group>"; };
+		AA000107 /* CatProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CatProfile.swift; path = Core/Models/CatProfile.swift; sourceTree = "<group>"; };
+		AA000108 /* CBTIQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CBTIQuestion.swift; path = Core/Models/CBTIQuestion.swift; sourceTree = "<group>"; };
+		AA000109 /* TestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestResult.swift; path = Core/Models/TestResult.swift; sourceTree = "<group>"; };
+		AA00010A /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockDataService.swift; path = Core/Services/MockDataService.swift; sourceTree = "<group>"; };
+		AA00010B /* MeowManualApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeowManualApp.swift; path = App/MeowManualApp.swift; sourceTree = "<group>"; };
+		AA00010C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
+		AA00010D /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArchiveView.swift; path = Features/Archive/ArchiveView.swift; sourceTree = "<group>"; };
+		AA00010E /* RankSpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RankSpeedView.swift; path = Features/Rank/RankSpeedView.swift; sourceTree = "<group>"; };
+		AA00010F /* RankBeautyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RankBeautyView.swift; path = Features/Rank/RankBeautyView.swift; sourceTree = "<group>"; };
+		AA000110 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = Features/Profile/ProfileView.swift; sourceTree = "<group>"; };
+		AA000111 /* AIFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIFaceView.swift; path = Features/AIFace/AIFaceView.swift; sourceTree = "<group>"; };
+		AA000112 /* CBTITestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CBTITestView.swift; path = Features/CBTI/CBTITestView.swift; sourceTree = "<group>"; };
+		AA000113 /* HearingTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HearingTestView.swift; path = Features/Hearing/HearingTestView.swift; sourceTree = "<group>"; };
+		AA000114 /* HearingRadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HearingRadarView.swift; path = Features/Hearing/HearingRadarView.swift; sourceTree = "<group>"; };
+		AA000115 /* PawReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PawReadyView.swift; path = Features/PawChallenge/PawReadyView.swift; sourceTree = "<group>"; };
+		AA000116 /* PawGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PawGameView.swift; path = Features/PawChallenge/PawGameView.swift; sourceTree = "<group>"; };
+		AA000117 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchView.swift; path = Features/Match/MatchView.swift; sourceTree = "<group>"; };
+		AA000118 /* MatchInviteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchInviteView.swift; path = Features/Match/MatchInviteView.swift; sourceTree = "<group>"; };
+		AA000119 /* SharePosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SharePosterView.swift; path = Features/Match/SharePosterView.swift; sourceTree = "<group>"; };
+		AA00011A /* ManualResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ManualResultView.swift; path = Features/Manual/ManualResultView.swift; sourceTree = "<group>"; };
+		AA00011B /* AIFaceResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIFaceResultView.swift; path = Features/AIFace/AIFaceResultView.swift; sourceTree = "<group>"; };
+		AA00011C /* AIScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIScanningView.swift; path = Features/AIFace/AIScanningView.swift; sourceTree = "<group>"; };
+		AA00011D /* ManualGeneratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ManualGeneratingView.swift; path = Features/CBTI/ManualGeneratingView.swift; sourceTree = "<group>"; };
+		AA000201 /* MeowManual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeowManual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA000401 = {
+			isa = PBXGroup;
+			children = (
+				AA000501 /* MeowManual */,
+				AA000601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA000501 /* MeowManual */ = {
+			isa = PBXGroup;
+			children = (
+				AA00010B /* MeowManualApp.swift */,
+				AA000101 /* Colors.swift */,
+				AA000102 /* Typography.swift */,
+				AA000103 /* Spacing.swift */,
+				AA000104 /* MMButton.swift */,
+				AA000105 /* MMNavigationBar.swift */,
+				AA000106 /* MMProgressBar.swift */,
+				AA000107 /* CatProfile.swift */,
+				AA000108 /* CBTIQuestion.swift */,
+				AA000109 /* TestResult.swift */,
+				AA00010A /* MockDataService.swift */,
+				AA00010C /* HomeView.swift */,
+				AA00010D /* ArchiveView.swift */,
+				AA00010E /* RankSpeedView.swift */,
+				AA00010F /* RankBeautyView.swift */,
+				AA000110 /* ProfileView.swift */,
+				AA000111 /* AIFaceView.swift */,
+				AA000112 /* CBTITestView.swift */,
+				AA000113 /* HearingTestView.swift */,
+				AA000114 /* HearingRadarView.swift */,
+				AA000115 /* PawReadyView.swift */,
+				AA000116 /* PawGameView.swift */,
+				AA000117 /* MatchView.swift */,
+				AA000118 /* MatchInviteView.swift */,
+				AA000119 /* SharePosterView.swift */,
+				AA00011A /* ManualResultView.swift */,
+				AA00011B /* AIFaceResultView.swift */,
+				AA00011C /* AIScanningView.swift */,
+				AA00011D /* ManualGeneratingView.swift */,
+			);
+			path = MeowManual;
+			sourceTree = "<group>";
+		};
+		AA000601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA000201 /* MeowManual.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA000701 /* MeowManual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000801 /* Build configuration list for PBXNativeTarget "MeowManual" */;
+			buildPhases = (
+				AA000901 /* Sources */,
+				AA000301 /* Frameworks */,
+				AA000A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeowManual;
+			productName = MeowManual;
+			productReference = AA000201 /* MeowManual.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000B01 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AA000C01 /* Build configuration list for PBXProject "MeowManual" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA000401;
+			productRefGroup = AA000601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA000701 /* MeowManual */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA000A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA000901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* Colors.swift in Sources */,
+				AA000002 /* Typography.swift in Sources */,
+				AA000003 /* Spacing.swift in Sources */,
+				AA000004 /* MMButton.swift in Sources */,
+				AA000005 /* MMNavigationBar.swift in Sources */,
+				AA000006 /* MMProgressBar.swift in Sources */,
+				AA000007 /* CatProfile.swift in Sources */,
+				AA000008 /* CBTIQuestion.swift in Sources */,
+				AA000009 /* TestResult.swift in Sources */,
+				AA00000A /* MockDataService.swift in Sources */,
+				AA00000B /* MeowManualApp.swift in Sources */,
+				AA00000C /* HomeView.swift in Sources */,
+				AA00000D /* ArchiveView.swift in Sources */,
+				AA00000E /* RankSpeedView.swift in Sources */,
+				AA00000F /* RankBeautyView.swift in Sources */,
+				AA000010 /* ProfileView.swift in Sources */,
+				AA000011 /* AIFaceView.swift in Sources */,
+				AA000012 /* CBTITestView.swift in Sources */,
+				AA000013 /* HearingTestView.swift in Sources */,
+				AA000014 /* HearingRadarView.swift in Sources */,
+				AA000015 /* PawReadyView.swift in Sources */,
+				AA000016 /* PawGameView.swift in Sources */,
+				AA000017 /* MatchView.swift in Sources */,
+				AA000018 /* MatchInviteView.swift in Sources */,
+				AA000019 /* SharePosterView.swift in Sources */,
+				AA00001A /* ManualResultView.swift in Sources */,
+				AA00001B /* AIFaceResultView.swift in Sources */,
+				AA00001C /* AIScanningView.swift in Sources */,
+				AA00001D /* ManualGeneratingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meowmanual.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA000D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meowmanual.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AA000E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000801 /* Build configuration list for PBXNativeTarget "MeowManual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000D01 /* Debug */,
+				AA000D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000C01 /* Build configuration list for PBXProject "MeowManual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000E01 /* Debug */,
+				AA000E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA000B01 /* Project object */;
+}

@@ -1,15 +1,34 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "weapp-dev": {
-      "type": "local",
-      "command": ["npx", "-y", "@yfme/weapp-dev-mcp"],
+    // "weapp-dev": {
+    //   "type": "local",
+    //   "command": ["npx", "-y", "@yfme/weapp-dev-mcp"],
+    //   "enabled": true,
+    //   "environment": {
+    //     "WEAPP_WS_ENDPOINT": "ws://localhost:31374",
+    //     "WEAPP_DEVTOOLS_PORT": "31374",
+    //     "WEAPP_AUTOMATOR_MODE": "connect"
+    //   }
+    // }
+    "xcodebuild": {
+      "command": [
+        "npx",
+        "-y",
+        "xcodebuildmcp@latest",
+        "mcp"
+      ],
       "enabled": true,
-      "environment": {
-        "WEAPP_WS_ENDPOINT": "ws://localhost:31374",
-        "WEAPP_DEVTOOLS_PORT": "31374",
-        "WEAPP_AUTOMATOR_MODE": "connect"
-      }
+      "type": "local"
+    },
+    "ios-simulator": {
+      "command": [
+        "npx",
+        "-y",
+        "ios-simulator-mcp"
+      ],
+      "enabled": true,
+      "type": "local"
     }
   }
 }
